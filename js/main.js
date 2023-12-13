@@ -12,7 +12,7 @@ addBtn.addEventListener('click', function(){
     counter.innerHTML = countDisplay
 
     if(countDisplay >= 0) {
-        counter.style.color = 'black'
+        counter.style.color = 'limegreen'
     }
 })
 
@@ -24,6 +24,6 @@ subBtn.addEventListener('click', function(){
     if(countDisplay < 0) {
         counter.style.color = 'red'
     } else {
-        counter.style.color = 'black'
+        counter.style.color = 'limegreen'
     }
 })
