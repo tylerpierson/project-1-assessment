@@ -10,6 +10,11 @@ body {
     color: limegreen;
 }
 
+.heading {
+    animation: tilt-shaking 0.3s infinite;
+    font-size: 9rem;
+}
+
 .main-container {
     width: 100%;
     height: 100%;
@@ -66,3 +71,11 @@ input[type=text]:focus {
     background-color: limegreen;
     color: black;
 }
+
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+  }
