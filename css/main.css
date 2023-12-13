@@ -1,5 +1,55 @@
+html {
+    font-size: 10px;
+}
+
 body {
     box-sizing: border-box;
     width: 100%;
     height: 100vh;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#counter {
+    font-size: 8rem;
+}
+
+.input-container {
+    display: flex;
+}
+
+input[type=submit] {
+    height: 10rem;
+    width: 10rem;
+    margin: 0 2rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 5rem;
+    color: white;
+    background-color: rgb(153,153,153);
+    transition: .3s ease;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    background-color: white;
+    border: .15rem solid rgb(153,153,153);
+    color: rgb(153,153,153);
+    transition: .3s ease;
+}
+
+input[type=text] {
+    height: 9.5rem;
+    width: 15rem;
+    border-radius: 1rem;
+    border: .2rem solid rgb(153,153,153);
+    font-size: 5rem;
+    text-align: center;
 }
